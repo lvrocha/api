@@ -1,0 +1,48 @@
+CRUD
+    create
+        {{ULR}}/funcionario/create.php
+        json example
+        {    
+            "nome" : "Lucas Rocha",
+            "data_nasc" : "1990-12-01",
+            "end_cep" : "33400000",
+            "end_logradouro" : "Alameda dos botanicos",
+            "end_bairro" : "lundceia",
+            "end_cidade" : "lagoa santa",
+            "end_estado" : "MG",
+            "end_numero" : "625",
+            "email" : "contato@lucasvilhena.com.br",
+            "tel_fixo" : "36812259",
+            "tel_cel" : "31992687645",
+            "competencia_tec" : "açklsdjfaksjdfka",
+            "competencia_compor" : "aksjdfçakjsdfkjaskasdf"
+        }
+    read
+        {{ULR}}/funcionario/read.php
+    update
+        {{ULR}}/funcionario/update.php
+        json example
+        {            
+            "id" : "10",
+            "nome" : "Lucas Rocha",
+            "data_nasc" : "1990-12-01",
+            "end_cep" : "33400000",
+            "end_logradouro" : "Alameda dos botanicos",
+            "end_bairro" : "lundceia",
+            "end_cidade" : "lagoa santa",
+            "end_estado" : "MG",
+            "end_numero" : "625",
+            "email" : "contato@lucasvilhena.com.br",
+            "tel_fixo" : "36812259",
+            "tel_cel" : "31992687645",
+            "competencia_tec" : "açklsdjfaksjdfka",
+            "competencia_compor" : "aksjdfçakjsdfkjaskasdf"            
+        }
+    delete
+        {{ULR}}/funcionario/delete.php
+        json example
+        {
+            "id" : "13"
+        }
+    readOne
+        {{ULR}}/funcionario/read_one.php?id={{id}}
